@@ -1,9 +1,12 @@
 import time
 
-current_time = time.time
-def printTime():
-    print("Es ist " + current_time + " Uhr./n")
-    print("Wie viel uhr ist es in Zehn stunden???")
-    print(input("In Zehn stunden is es: "))
-    
-    
+
+def printNumber():
+    Number = 0
+    while Number <= 1000000:
+        print(Number)
+        Number = Number +1
+        time.sleep(0.1)
+
+
+printNumber()
